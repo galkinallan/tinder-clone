@@ -8,13 +8,11 @@ function Card() {
 
   useEffect(() => {
     async function fetchData() {
-      const req = await axios.get("/tinder/card");
+      const req = await axios.get("/tinder/cards");
       setPeople(req.data);
     }
     fetchData();
   }, []);
-
-  console.log(people);
 
   const swiped = (direction, nameToDelete) => {
     console.log("removing " + nameToDelete);
