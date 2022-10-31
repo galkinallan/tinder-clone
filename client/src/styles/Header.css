@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    border-bottom: 1px solid #f9f9f9;
+
+}
+
+.header__logo {
+    object-fit: contain;
+    height: 40px;
+}
+
+.header__icon {
+    padding: 20px;
+}
+
+
+.button__repeat {
+    padding: 3vw !important;
+    color: #f5b748 !important;
+}
+.button__left {
+    padding: 3vw !important;
+    color: #ec5e6f !important;
+}
+.button__star {
+    padding: 3vw !important;
+    color: #62b4f9 !important;
+}
+.button__right {
+    padding: 3vw !important;
+    color: #76e2b3 !important;
+}
+.button__lightning {
+    padding: 3vw !important;
+    color: #915dd1 !important;
+}
